@@ -1,8 +1,15 @@
-# Create Spring Boot Docker image and push to Docker Hub with fabric8 plugin
+# Maven Docker fabric8 plugin example
+
+
+## Create Spring Boot Docker image and push to Docker Hub
 
 mvn clean package -Pdocker
 
 
-# Run Spring Boot application inside Docker container with fabric8 plugin
+## Run Spring Boot application inside Docker container
 
 mvn clean install -Pdocker
+
+## Microservice
+
+
