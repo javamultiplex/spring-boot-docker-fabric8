@@ -12,4 +12,4 @@ mvn clean install -Pdocker
 
 ## Microservice
 
-
+curl http://localhost:8082/api/v1/students
